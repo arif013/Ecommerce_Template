@@ -19,7 +19,7 @@ interface ProductDetailsProps {
 }
 
 
-function ProductDetails({ id, title, description, price, image, category, showProduct, onClose, item }: ProductDetailsProps) {
+function ProductDetails({  title, description, price, image, category, showProduct, onClose, item }: ProductDetailsProps) {
     console.log(title, showProduct)
     const dispatch = useDispatch()
     const handleCartAdd = (state: any) => {

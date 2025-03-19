@@ -10,7 +10,7 @@ function Cart() {
     const cart = useCartlist()
     const cartItems = cart.carts
     // console.log(cartItems)
-    const cartIds = cartItems.map((item:any) => item.id)
+    // const cartIds = cartItems.map((item:any) => item.id)
     // console.log(cartIds)
     const onDeleteItem = (id: string)=>{
         dispatch(removeFromCart(id))
